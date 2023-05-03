@@ -1,0 +1,625 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  padding: 2rem 10rem;
+}
+
+.font h1 {
+  letter-spacing: 2px;
+  color: #333;
+  font-weight: 400;
+  font-size: 5.5rem;
+  font-family: "Abril Fatface", cursive;
+}
+
+:root {
+  --dark: #000;
+  --light: #fff;
+  --primery: #286f6c;
+  --btn: #f45d48;
+  --heading: #232323;
+  --pragraph: #222525;
+}
+
+/* ________#### {HOME} ####___________ */
+
+.main {
+  background: url(/imges/food-catering-05.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem;
+  height: 100vh;
+}
+
+.nav_bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 4rem;
+  width: 100%;
+  background: #fff;
+  box-shadow: 5px 0px 30px 10px #e8e8e8;
+}
+
+nav h1 {
+  font-size: 23px;
+  color: #333;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #7a7a7a;
+  font-size: 1.5rem;
+  padding: 0 1.5rem;
+  font-weight: 600;
+  transition: 0.7s;
+}
+
+nav a:hover {
+  color: #171717;
+}
+
+nav i {
+  padding: 0 2rem;
+  font-size: 20px;
+  color: var(--dark);
+}
+
+.text {
+  padding: 20rem 0 0 10rem;
+  /* transform: translate(8%, 45%); */
+  width: fit-content;
+}
+
+.text h1 {
+  padding-bottom: 10px;
+  line-height: 7rem;
+  font-weight: 500;
+  font-size: 7rem;
+  font-family: "Abril Fatface", cursive;
+  color: #333;
+}
+
+.text p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 2em;
+  padding-top: 1rem;
+  color: #7a7a7a;
+  font-weight: 500;
+}
+
+.text a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 500;
+  background: #ff6d4a;
+  color: var(--light);
+  padding: 2rem 3rem;
+  margin: 3rem 0 6rem 0;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.text a:hover {
+  box-shadow: 3px 3px 10px #ff6d4a;
+}
+
+/* ________#### {ABOUT} ####___________ */
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+.detail img {
+  position: absolute;
+
+  left: 0;
+  top: 0;
+  z-index: -999;
+}
+
+.photo {
+  width: 45%;
+}
+
+.photo img {
+  width: 100%;
+}
+
+.detail {
+  position: relative;
+  padding: 8rem 5rem;
+  z-index: 10;
+}
+
+.detail p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 2em;
+  padding-top: 1rem;
+  color: #7a7a7a;
+  font-weight: 500;
+}
+
+.detail a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 500;
+  background: #ff6d4a;
+  color: var(--light);
+  padding: 2rem 3rem;
+  margin: 3rem 0 6rem 0;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.detail a:hover {
+  box-shadow: 3px 3px 10px #ff6d4a;
+}
+
+.detail p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 2em;
+  padding-top: 1rem;
+  color: #7a7a7a;
+  font-weight: 500;
+}
+
+/* ________#### {OUR MENUS} ####___________ */
+
+.menus {
+  background: url(/imges/food-catering-07.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cen h1 {
+  padding-top: 8rem;
+  text-align: center;
+}
+
+.cen p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 2em;
+  color: #7a7a7a;
+  font-weight: 500;
+  margin: 0 auto;
+  width: 46%;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  margin: 0 auto;
+  padding: 3rem 10rem;
+}
+
+.dot {
+  background: #fff;
+  border: 1px solid #cfcfcf;
+  padding: 2rem 9rem 2rem 3rem;
+  margin: 2rem;
+  height: fit-content;
+  /* width: 50%; */
+}
+
+.dot h2 {
+  font-size: 2.5rem;
+  padding: 1.5rem 0;
+  font-family: "Abril Fatface", cursive;
+  font-weight: 400;
+  color: #333;
+}
+
+.dot li {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  color: #7a7a7a;
+  font-size: 1.35rem;
+  padding: 1rem 0;
+}
+/* ________#### {WHAT WE DO} ####___________ */
+.row_bg {
+  background: url(/imges/food-catering-06.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 13rem;
+}
+
+.row0 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 2em;
+  padding-top: 1rem;
+  color: #7a7a7a;
+  font-weight: 500;
+}
+
+/* rows */
+.row1 {
+  padding: 10rem 0rem 0 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card1 {
+  padding: 3rem 4rem;
+  background: #ffffff;
+  width: 30%;
+  box-shadow: 0px 5px 20px #e4e4e4;
+}
+
+.card1 h1 {
+  font-size: 2rem;
+  color: #333;
+  line-height: 5rem;
+  font-weight: 500;
+  font-family: "Abril Fatface", cursive;
+}
+
+.card1 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  line-height: 2em;
+  padding-top: 1rem;
+  color: #7a7a7a;
+  font-weight: 500;
+}
+
+.card1 a {
+  color: #ff6d4a;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-top: 15px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.row2 {
+  background: #f9f9fb;
+  padding-bottom: 7rem;
+}
+
+/* ________#### {GALLERY} ####___________ */
+
+.galry {
+  background: url(/imges/square-bg.png);
+  padding: 2rem 10rem;
+}
+
+.galry h1 {
+  text-align: left;
+}
+
+.grids {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 100%;
+  margin: 5rem auto;
+  gap: 0;
+}
+
+.galry .galry1 {
+  transform: translateY(100%);
+}
+
+.galry .galry4 {
+  transform: translate(-100%, 200%);
+}
+
+.galry .galry5 {
+  transform: translate(300%, 50%);
+}
+.galry .galry2,
+.galry .galry6 {
+  transform: translateY(50%);
+}
+
+.grids img {
+  width: 100%;
+}
+
+/* ________#### {LET'S WORK} ####___________ */
+
+.talk {
+  background: url(/imges/food-catering-08.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8rem;
+}
+
+.center p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  line-height: 2em;
+  padding: 4rem 0;
+  color: #7a7a7a;
+  font-weight: 500;
+  width: 50%;
+}
+
+.center a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  background: #ff6d4a;
+  color: var(--light);
+  padding: 2rem 3rem;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.center a:hover {
+  box-shadow: 3px 3px 10px 1px #7a7a7a;
+}
+
+/* ________#### {TESTIMONIAL} ####___________ */
+
+.testime {
+  padding: 8rem 10rem;
+}
+
+.tes_image {
+  padding-bottom: 3rem;
+}
+
+.pregrph {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pregrph p {
+  border: 1px solid #dadada;
+  line-height: 30px;
+  padding: 3rem;
+  color: #666;
+  font-size: 1.4rem;
+  width: 30%;
+  height: fit-content;
+}
+
+.number {
+  background: #ff6d4a;
+  display: flex;
+  justify-content: space-between;
+  padding: 6rem 20rem;
+  text-align: center;
+}
+
+.num0 h1 {
+  font-family: "Abril Fatface", cursive;
+
+  color: #fff;
+  font-size: 7rem;
+  font-weight: 500;
+}
+
+.num0 p {
+  font-weight: 600;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+/* ________#### {SIGN IN} ####___________ */
+
+.sign {
+  background-image: radial-gradient(
+    circle at top left,
+    #e7e8ee 20%,
+    rgba(235, 235, 235, 0.438) 20%
+  ) !important;
+  padding: 8rem 10rem;
+}
+
+.sign h1 {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.table {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.table1,
+.table2 {
+  display: flex;
+  width: 100%;
+}
+
+.table1 input,
+.table2 input {
+  font-family: "Montserrat", sans-serif;
+  padding: 1.8rem 1.5rem;
+  outline: none;
+  width: 50%;
+  margin: 2rem;
+  letter-spacing: 2px;
+  color: var(--heading);
+  font-size: 1.2rem;
+  border: 1px solid #e7e8ee;
+  border-radius: 4px;
+}
+
+textarea {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  resize: none;
+  padding: 1.8rem 1.5rem;
+  outline: none;
+  width: 97%;
+  margin: 2rem auto;
+  display: block;
+  letter-spacing: 2px;
+  color: var(--heading);
+  font-size: 1.2rem;
+  border: 1px solid #e7e8ee;
+  border-radius: 4px;
+}
+
+.sign a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  background: #ff6d4a;
+  color: var(--light);
+  padding: 1.5rem 1.8rem;
+  transition: 0.3s;
+  border-radius: 5px;
+  display: inline-block;
+  margin-left: 1.8rem;
+}
+
+.sign a:hover {
+  box-shadow: 3px 3px 10px #ff6d4a;
+}
+
+/* ________#### {FOOTER} ####___________ */
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #171717;
+  padding: 2rem 10rem;
+}
+
+.links p {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #616161;
+}
+
+.links .social {
+  display: inline-block;
+  padding: 0 2rem;
+}
+
+.social i {
+  color: #616161;
+  font-size: 2.5rem;
+  padding: 0 2rem;
+}
+/* ________#### {DEVICES} ####___________ */
+
+@media only screen and (max-width: 900px) {
+  nav ul li a {
+    display: none;
+  }
+
+  .center {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem;
+    position: relative;
+  }
+
+  .text > h1 {
+    font-size: 4rem;
+    padding-bottom: 3rem;
+  }
+
+  .number {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .num {
+    padding: 3rem;
+    margin: 0 auto;
+  }
+
+  .imag {
+    margin-top: 6rem;
+  }
+
+  .vcal {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    writing-mode: vertical-rl;
+    font-size: 19px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 6%;
+    transform: rotate(180deg);
+    color: var(--dark);
+    padding: 2rem;
+  }
+
+  .vcal span {
+    font-size: 1.5rem;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text {
+    padding-left: 2rem;
+    margin-top: 4rem;
+  }
+
+  .scroll {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .scroll img {
+    padding: 3rem 0;
+  }
+}
